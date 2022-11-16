@@ -11,6 +11,7 @@ export type Game = {
     victims: string[],
     weapons: string[],
     headshot?: boolean[],
+    diffusedBombCount?: number,
     tSideScore: number,
     ctSideScore: number
 }

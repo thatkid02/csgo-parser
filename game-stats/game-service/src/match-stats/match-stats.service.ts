@@ -1,7 +1,7 @@
 /** Nest and Other NPM Packages **/
 import { Injectable, Req, Res } from "@nestjs/common";
 import * as fs from 'fs';
-import { MetaData, Player, PlayerKillPattern, PlayerKillScore, RoundInfo, WorldRoundEndPattern, WorldRoundStartPattern } from "./match-stats.types";
+import { MetaData, Player, PlayerBombDefusedPattern, PlayerKillPattern, PlayerKillScore, RoundInfo, WorldRoundEndPattern, WorldRoundStartPattern } from "./match-stats.types";
 const execSync = require('child_process').execSync;
 
 /** Service module imports **/
@@ -41,8 +41,10 @@ export class MatchStatsService {
 
         this.getAllRoundInfo();
         this.getLongestRound()
-
-        this.#logger.write(JSON.stringify(this.#roundLogData))
+        
+        this.setBombDiffusalPlayer()
+        this.getDiffusingMvpPlayer()
+        this.#logger.write(JSON.stringify(this.#players))
     }
 
     getDataFromAllLog(res) {
@@ -88,6 +90,21 @@ export class MatchStatsService {
         // Remove admin
         this.#players.shift()
         return this.#players;
+    }
+
+    //set diffusal
+    setBombDiffusalPlayer() {
+        this.#players.forEach(player=>{
+            player.game.diffusedBombCount = 0;
+            this.#logData.forEach(line=>{
+                const bombLog = this.getLogForPattern(line, PlayerBombDefusedPattern)
+                if(bombLog){
+                    if(player.name == bombLog[1]){
+                        player.game.diffusedBombCount =  player.game.diffusedBombCount + 1;
+                    }
+                }
+            })
+        })
     }
 
     // set Kill feed
@@ -189,6 +206,15 @@ export class MatchStatsService {
             maxKills = player.game.tSideScore + player.game.ctSideScore > maxKills ? player.game.tSideScore + player.game.ctSideScore : maxKills
         });
         console.log(`Killng Spree Player: ${starPlayer} has killed total of ${maxKills}`)
+    }
+
+    getDiffusingMvpPlayer(){
+        let maxDiffuse = 0; let mvpPlayer = "admin";
+        this.#players.forEach(player => {
+            mvpPlayer = player.game.diffusedBombCount > maxDiffuse ? player.name: mvpPlayer;
+            maxDiffuse = player.game.diffusedBombCount > maxDiffuse ? player.game.diffusedBombCount: maxDiffuse
+        });
+        console.log(`Mvp Bomb Diffusing Player: ${mvpPlayer} has diffuced ${maxDiffuse} times.`)
     }
 
     getLongestRound(): void{
