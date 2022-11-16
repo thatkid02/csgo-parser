@@ -25,67 +25,6 @@ export type MetaData = {
     type: string
 }
 
-export type ServerLogs = {
-    metaData: MetaData,
-    text: string
-}
-
-export type FreezTimeStart = { 
-    metaData: MetaData
-}
-
-	
-export type WorldMatchStart = {
-	metaData: MetaData,
-    map: string
-}
-
-
-export type WorldRoundStart = { 
-    metaData: MetaData,
-}
-
-export type WorldRoundRestart = { 
-    metaData: MetaData,
-    timeLeft: number
-}
-
-export type WorldRoundEnd = { 
-    metaData: MetaData,
-}
-
-export type WorldGameCommencing = { 
-    metaData: MetaData,
-}
-
-
-export type TeamScore = {
-    metaData: MetaData,
-    side: String,
-    score: number
-}
-
-
-export type PlayerSwitch = {
-    metaData: MetaData,
-    player: Player,
-    sideCT: boolean,
-    sideT: boolean
-}
-
-export type PlayerChat = {
-    metaData: MetaData,
-    player: Player,
-    message: string,
-    team: string
-}
-
-export type Armoury = {
-    metaData: MetaData,
-    player: Player,
-    item: string
-}
-
 export type PlayerKillScore = {
     attacker: string,
     victim: string[],
@@ -94,6 +33,7 @@ export type PlayerKillScore = {
     tSideScore: number,
     ctSideScore: number
 }
+
 
 export type KillAssist = {
     metaData: MetaData,
@@ -120,10 +60,12 @@ export type BlindedFlash = {
 }
 
 export type RoundInfo = {
-    metaData: MetaData,
-    map: string,
-    ctScore: number,
-    tscore: number
+    roundStartTime: Date,
+    roundEndTime: Date,
+    roundNumber: number,
+    map?: string,
+    ctScore?: number,
+    tscore?: number
     duration: number
 }
 
@@ -146,7 +88,7 @@ export const PlayerKillPattern = new RegExp(/"(.+)<(\d+)><([\w:]+)><(TERRORIST|C
 export const ServerMessagePattern = new RegExp(/server_message: "(\w+)"/i);
 export const FreezTimeStartPattern = new RegExp(/Starting Freeze period/i);
 export const WorldMatchStartPattern = new RegExp(/World triggered "Match_Start" on "(\w+)"/i);
-export const WorldRoundStartPattern = new RegExp(/World triggered "Round_Start"/i);
+export const WorldRoundStartPattern = new RegExp(/(.+)? World triggered "Round_Start"/i);
 export const WorldRoundRestartPattern = new RegExp(/World triggered "Restart_Round_\((\d+)_second\)/i);
-export const WorldRoundEndPattern = new RegExp(/World triggered "Round_End"/i);
+export const WorldRoundEndPattern = new RegExp(/(.+)? World triggered "Round_End"/i);
 export const TeamScoredPattern = new RegExp(/Team "(CT|TERRORIST)" scored "(\d+)" with "(\d+)" players/i);

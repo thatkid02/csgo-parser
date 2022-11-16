@@ -1,7 +1,7 @@
 /** Nest and Other NPM Packages **/
 import { Injectable, Req, Res } from "@nestjs/common";
 import * as fs from 'fs';
-import { MetaData, Player, PlayerKillPattern, PlayerKillScore } from "./match-stats.types";
+import { MetaData, Player, PlayerKillPattern, PlayerKillScore, RoundInfo, WorldRoundEndPattern, WorldRoundStartPattern } from "./match-stats.types";
 const execSync = require('child_process').execSync;
 
 /** Service module imports **/
@@ -14,6 +14,7 @@ export class MatchStatsService {
     #logData: string[];
     #players: Player[];
     #killedLogData: any[] = [];
+    #roundLogData: RoundInfo[] = [];
 
     private readonly csgoLogPattern = new RegExp(/(\d{2}\/\d{2}\/\d{4} - \d{2}:\d{2}:\d{2}): (.*)/i);
 
@@ -35,7 +36,13 @@ export class MatchStatsService {
 
         this.getKillingSpreePlayer()
         this.getVersatilePlayer()
-        this.#logger.write(JSON.stringify(this.#players))
+        
+       
+
+        this.getAllRoundInfo();
+        this.getLongestRound()
+
+        this.#logger.write(JSON.stringify(this.#roundLogData))
     }
 
     getDataFromAllLog(res) {
@@ -84,7 +91,7 @@ export class MatchStatsService {
     }
 
     // set Kill feed
-    setPlayerKillLogs() {
+    setPlayerKillLogs(): void {
         let playerKillScore = []
 
         this.#players.forEach(player => {
@@ -140,6 +147,31 @@ export class MatchStatsService {
         });
     }
 
+    getAllRoundInfo(){
+        let roundLog = { roundStartTime: null, roundEndTime: null}
+        let roundCount = 0;
+        this.#logData.forEach((line)=> {
+            
+            const startLog = this.getLogForPattern(line, WorldRoundStartPattern);
+            const endLog = this.getLogForPattern(line, WorldRoundEndPattern);
+            
+            if(startLog){
+                roundLog.roundStartTime = new Date(startLog[1].replace("-","").slice(0, -1));
+            }
+
+            if(endLog){
+                roundLog.roundEndTime = new Date(endLog[1].replace("-","").slice(0, -1));
+            }
+
+            if(roundLog.roundStartTime != null && roundLog.roundEndTime != null){
+                roundCount += 1
+                this.#roundLogData.push({...roundLog, roundNumber: roundCount, duration: Math.round(((roundLog.roundEndTime-roundLog.roundStartTime)+Number.EPSILON)/1000)})
+                roundLog = { roundStartTime: null, roundEndTime: null}
+            }
+        });
+
+    }
+
     //  Analysis Starts here
     getVersatilePlayer(): void {
         let maxWeaponCount = 0; let starPlayer = "admin";
@@ -157,6 +189,16 @@ export class MatchStatsService {
             maxKills = player.game.tSideScore + player.game.ctSideScore > maxKills ? player.game.tSideScore + player.game.ctSideScore : maxKills
         });
         console.log(`Killng Spree Player: ${starPlayer} has killed total of ${maxKills}`)
+    }
+
+    getLongestRound(): void{
+        let maxRoundDuration = 0; let roundNumber=0;
+        this.#roundLogData.forEach((roundLog)=>{
+            roundNumber = roundLog.duration > maxRoundDuration ? roundLog.roundNumber : roundNumber
+            maxRoundDuration = roundLog.duration > maxRoundDuration ? roundLog.duration : maxRoundDuration
+        });
+
+        console.log(`Longest round: ${roundNumber} with duration: ${maxRoundDuration} seconds`) 
     }
 }
 
