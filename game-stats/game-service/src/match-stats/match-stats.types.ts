@@ -3,7 +3,16 @@ export type Player = {
     name: string,
     pId: number,
     steamId: string,
-    side: string
+    side: string,
+    game?: Game
+}
+
+export type Game = {
+    victims: string[],
+    weapons: string[],
+    headshot?: boolean[],
+    tSideScore: number,
+    ctSideScore: number
 }
 
 export interface Log {

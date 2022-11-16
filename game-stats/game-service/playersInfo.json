@@ -1,0 +1,234 @@
+[
+    {
+        "name": "ZywOo",
+        "pId": "26",
+        "steamId": "STEAM_1:1:76700232",
+        "side": null,
+        "game": {
+            "victims": [
+                "s1mple",
+                "Perfecto",
+                "b1t",
+                "Boombl4",
+                "electronic"
+            ],
+            "weapons": [
+                "usp_silencer",
+                "m4a1_silencer",
+                "awp",
+                "taser",
+                "ak47",
+                "p250"
+            ],
+            "tSideScore": 7,
+            "ctSideScore": 14
+        }
+    },
+    {
+        "name": "electronic",
+        "pId": "31",
+        "steamId": "STEAM_1:1:41889689",
+        "side": null,
+        "game": {
+            "victims": [
+                "ZywOo",
+                "apEX",
+                "misutaaa",
+                "shox "
+            ],
+            "weapons": [
+                "glock",
+                "ak47",
+                "mac10",
+                "m4a1_silencer"
+            ],
+            "tSideScore": 7,
+            "ctSideScore": 2
+        }
+    },
+    {
+        "name": "shox ",
+        "pId": "33",
+        "steamId": "STEAM_1:1:23327283",
+        "side": null,
+        "game": {
+            "victims": [
+                "electronic",
+                "s1mple",
+                "b1t",
+                "Boombl4",
+                "Perfecto"
+            ],
+            "weapons": [
+                "usp_silencer",
+                "m4a1_silencer",
+                "ak47"
+            ],
+            "tSideScore": 4,
+            "ctSideScore": 16
+        }
+    },
+    {
+        "name": "Boombl4",
+        "pId": "29",
+        "steamId": "STEAM_1:0:92970669",
+        "side": null,
+        "game": {
+            "victims": [
+                "shox ",
+                "ZywOo",
+                "Kyojin",
+                "misutaaa"
+            ],
+            "weapons": [
+                "glock",
+                "galilar",
+                "m4a1_silencer",
+                "tec9",
+                "elite"
+            ],
+            "tSideScore": 7,
+            "ctSideScore": 2
+        }
+    },
+    {
+        "name": "misutaaa",
+        "pId": "24",
+        "steamId": "STEAM_1:1:60631591",
+        "side": null,
+        "game": {
+            "victims": [
+                "Boombl4",
+                "Perfecto",
+                "s1mple",
+                "b1t",
+                "electronic"
+            ],
+            "weapons": [
+                "usp_silencer",
+                "m4a1_silencer",
+                "deagle",
+                "ak47"
+            ],
+            "tSideScore": 5,
+            "ctSideScore": 10
+        }
+    },
+    {
+        "name": "s1mple",
+        "pId": "30",
+        "steamId": "STEAM_1:1:36968273",
+        "side": null,
+        "game": {
+            "victims": [
+                "misutaaa",
+                "shox ",
+                "ZywOo",
+                "Kyojin",
+                "apEX"
+            ],
+            "weapons": [
+                "deagle",
+                "ak47",
+                "inferno",
+                "tec9",
+                "awp",
+                "usp_silencer",
+                "m4a1_silencer"
+            ],
+            "tSideScore": 11,
+            "ctSideScore": 7
+        }
+    },
+    {
+        "name": "apEX",
+        "pId": "25",
+        "steamId": "STEAM_1:1:14739219",
+        "side": null,
+        "game": {
+            "victims": [
+                "electronic",
+                "s1mple",
+                "Boombl4",
+                "Perfecto",
+                "b1t"
+            ],
+            "weapons": [
+                "m4a1_silencer",
+                "ak47"
+            ],
+            "tSideScore": 6,
+            "ctSideScore": 14
+        }
+    },
+    {
+        "name": "Kyojin",
+        "pId": "34",
+        "steamId": "STEAM_1:1:22851120",
+        "side": null,
+        "game": {
+            "victims": [
+                "b1t",
+                "Boombl4",
+                "electronic"
+            ],
+            "weapons": [
+                "mp9",
+                "m4a1_silencer",
+                "ak47",
+                "deagle"
+            ],
+            "tSideScore": 1,
+            "ctSideScore": 9
+        }
+    },
+    {
+        "name": "b1t",
+        "pId": "35",
+        "steamId": "STEAM_1:0:143170874",
+        "side": null,
+        "game": {
+            "victims": [
+                "Kyojin",
+                "apEX",
+                "ZywOo",
+                "misutaaa",
+                "shox "
+            ],
+            "weapons": [
+                "tec9",
+                "galilar",
+                "ak47",
+                "usp_silencer",
+                "famas",
+                "m4a1"
+            ],
+            "tSideScore": 9,
+            "ctSideScore": 8
+        }
+    },
+    {
+        "name": "Perfecto",
+        "pId": "28",
+        "steamId": "STEAM_1:0:80477379",
+        "side": null,
+        "game": {
+            "victims": [
+                "shox ",
+                "Kyojin",
+                "misutaaa",
+                "apEX"
+            ],
+            "weapons": [
+                "tec9",
+                "deagle",
+                "ak47",
+                "galilar",
+                "elite",
+                "famas"
+            ],
+            "tSideScore": 8,
+            "ctSideScore": 2
+        }
+    }
+]
