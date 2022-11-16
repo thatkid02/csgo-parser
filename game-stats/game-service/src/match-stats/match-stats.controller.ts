@@ -14,11 +14,6 @@ export class MatchStatsController {
 
     constructor(private readonly matchStatsService: MatchStatsService) {}
 
-    @Get("/")
-    async checkStatus(@Req() req: Request,@Res() res: Response) {        
-        return await this.matchStatsService.getLog(req, res);
-    }
-
     @Get("logs")
     async doGetMatch(@Req() req: Request,@Res() res: Response) {        
         return this.matchStatsService.getDataFromAllLog(res);

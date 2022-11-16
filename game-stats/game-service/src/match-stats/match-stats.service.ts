@@ -1,7 +1,7 @@
 /** Nest and Other NPM Packages **/
 import { Injectable, Req, Res } from "@nestjs/common";
 import * as fs from 'fs';
-import { LogPatterns, MetaData, Player, PlayerKillScore } from "./match-stats.types";
+import { MetaData, Player, PlayerKillPattern, PlayerKillScore } from "./match-stats.types";
 const execSync = require('child_process').execSync;
 
 /** Service module imports **/
@@ -30,21 +30,16 @@ export class MatchStatsService {
 
     onModuleInit() {
         this.#players = this.getPlayers();
-        this.getPlayerKillLogs();
+        
+        this.setPlayerKillLogs();
 
+        this.getKillingSpreePlayer()
+        this.getVersatilePlayer()
         this.#logger.write(JSON.stringify(this.#players))
-        // this.getStarPlayer(players);
-        // this.getMostKills(players)
-
-        // this.test()
-    }
-
-    getLog(req, res) {
-        return res.status(200).header({}).send();
     }
 
     getDataFromAllLog(res) {
-        return res;
+        return res.status(200).header({}).send();
     }
 
     private static getType(metaData: MetaData): string {
@@ -56,21 +51,14 @@ export class MatchStatsService {
     }
 
 
-    getLogForPattern(line: string, pattern: LogPatterns) {
+    getLogForPattern(line: string, pattern: RegExp) {
         const log = this.csgoLogPattern.exec(line);
 
         if (!log) return { message: "no match found" };
+    
+        const isLog = pattern.test(line);
 
-
-        const re = new RegExp(/"(.+)<(\d+)><([\w:]+)><(TERRORIST|CT)>" \[(-?\d+) (-?\d+) (-?\d+)\] killed "((.+)<(\d+)><([\w:]+)><(TERRORIST|CT)>)" \[(-?\d+) (-?\d+) (-?\d+)\] with "(\w+)" ?(\(?(headshot|penetrated|headshot penetrated)?\))?/i)
-
-        const isLog = re.test(line);
-
-        if (isLog) {
-            const parsedLog = re.exec(line);
-            // this.#logger.write(JSON.stringify(parsedLog)+"\n")
-            return parsedLog;
-        }
+        if (isLog) return pattern.exec(line);
     }
 
     getPlayers(): Player[] {
@@ -78,7 +66,7 @@ export class MatchStatsService {
 
         this.#logData.forEach(line => {
             if (this.#players.length < 12) {
-                const parsedLog = this.getLogForPattern(line, LogPatterns.PlayerEnteredPattern);
+                const parsedLog = this.getLogForPattern(line, PlayerKillPattern);
                 if (parsedLog) {
                     this.#killedLogData.push(parsedLog)
                     this.#players.forEach(() => {
@@ -95,14 +83,15 @@ export class MatchStatsService {
         return this.#players;
     }
 
-    getPlayerKillLogs() {
+    // set Kill feed
+    setPlayerKillLogs() {
         let playerKillScore = []
 
         this.#players.forEach(player => {
             this.#killedLogData.forEach(parsedLog => {
                     if (player.name == parsedLog[1]) {
                         // first time it will fail
-                        playerKillScore = this.dest(playerKillScore, parsedLog)
+                        playerKillScore = this.setPlayerStats(playerKillScore, parsedLog)
                         if (playerKillScore.length == 0) {
                             playerKillScore.push({
                                 attacker: parsedLog[1],
@@ -115,39 +104,11 @@ export class MatchStatsService {
                     }
             });
         });
-        this.reduceKiller(playerKillScore);
-        
+        this.setPlayerGameStats(playerKillScore);
     }
 
-    prepare(playerKillScore,parsedLog){
-        playerKillScore.forEach(kplayer => {
-            const found = playerKillScore.some(player =>player.attacker === parsedLog[1])
-            if (found) {
-                kplayer.victim.push(parsedLog[9])
-                if (parsedLog[4] == "CT") {
-                    kplayer.ctSideScore = kplayer.ctSideScore + 1;
-                } else {
-                    kplayer.tSideScore = kplayer.tSideScore + 1;
-                }
-                kplayer.weapon.push(parsedLog[16])
-            } else {
-                playerKillScore.push({
-                    attacker: parsedLog[1],
-                    victim: [parsedLog[9]],
-                    ctSideScore: parsedLog[4] == "CT" ? 1 : 0,
-                    tSideScore: parsedLog[4] == "CT" ? 0 : 1,
-                    weapon: [parsedLog[16]]
-                } as PlayerKillScore)
-
-            }
-            kplayer.victim = Array.from((new Set<string>(kplayer.victim)).values());
-            kplayer.weapon = Array.from((new Set<string>(kplayer.weapon)).values());
-        });
-
-        return playerKillScore
-    }
-
-    dest(playerKillScore,parsedLog){
+    // unique log stats
+    setPlayerStats(playerKillScore,parsedLog){
         playerKillScore.push({
             attacker: parsedLog[1],
             victim: parsedLog[9],
@@ -158,7 +119,8 @@ export class MatchStatsService {
         return playerKillScore
     }
 
-    reduceKiller(playerKillScore){
+    // constructed player stats
+    setPlayerGameStats(playerKillScore){
         const killerPlayers = []
         this.#players.forEach((player)=>{
             player.game = { victims:[],weapons:[],tSideScore:0,ctSideScore:0}
@@ -178,77 +140,23 @@ export class MatchStatsService {
         });
     }
 
-
-    getStarPlayer(players: PlayerKillScore[]) {
+    //  Analysis Starts here
+    getVersatilePlayer(): void {
         let maxWeaponCount = 0; let starPlayer = "admin";
-        players.forEach(player => {
-            starPlayer = player.weapon.length > maxWeaponCount ? player.attacker : starPlayer
-            maxWeaponCount = player.weapon.length > maxWeaponCount ? player.weapon.length : maxWeaponCount
-            if (player.attacker == "Boombl4") console.log(player.weapon)
+        this.#players.forEach(player => {
+            starPlayer = player.game.weapons.length > maxWeaponCount ? player.name : starPlayer
+            maxWeaponCount = player.game.weapons.length > maxWeaponCount ? player.game.weapons.length : maxWeaponCount
         });
-        console.log(`Player ${starPlayer} has used ${maxWeaponCount} variety of weapons`)
+        console.log(`Versatile Player: ${starPlayer} has used ${maxWeaponCount} variety of weapons`)
     }
 
-    getMostKills(players: PlayerKillScore[]) {
+    getKillingSpreePlayer(): void{
         let maxKills = 0; let starPlayer = "admin";
-        players.forEach(player => {
-            starPlayer = player.tSideScore + player.ctSideScore > maxKills ? player.attacker : starPlayer
-            maxKills = player.tSideScore + player.ctSideScore > maxKills ? player.tSideScore + player.ctSideScore : maxKills
+        this.#players.forEach(player => {
+            starPlayer = player.game.ctSideScore + player.game.tSideScore > maxKills ? player.name : starPlayer
+            maxKills = player.game.tSideScore + player.game.ctSideScore > maxKills ? player.game.tSideScore + player.game.ctSideScore : maxKills
         });
-        console.log(`Player ${starPlayer} has score of ${maxKills}`)
-    }
-
-    test() {
-
-        const a = [
-            "\"s1mple<30><STEAM_1:1:36968273><TERRORIST>\" [1050 -1336 -408] killed other \"func_breakable<416>\" [1143 -797 -344] with \"glock\"",
-            "s1mple",
-            "30",
-            "STEAM_1:1:36968273",
-            "TERRORIST",
-            "1050",
-            "-1336",
-            "-408",
-            "other ",
-            "func_breakable<416>",
-            "func_breakable<416>",
-            null,
-            null,
-            null,
-            null,
-            null,
-            "1143",
-            "-797",
-            "-344",
-            "glock",
-            null,
-            null]
-
-        const b = ["\"s1mple<30><STEAM_1:1:36968273><TERRORIST>\" [1191 -891 -408] killed \"apEX<25><STEAM_1:1:14739219><CT>\" [2504 -344 -289] with \"ak47\" (headshot)",
-            "s1mple",
-            "30",
-            "STEAM_1:1:36968273",
-            "TERRORIST",
-            "1191",
-            "-891",
-            "-408",
-            null,
-            "apEX<25><STEAM_1:1:14739219><CT>",
-            null,
-            "apEX<25><STEAM_1:1:14739219><CT>",
-            "apEX",
-            "25",
-            "STEAM_1:1:14739219",
-            "CT",
-            "2504",
-            "-344",
-            "-289",
-            "ak47",
-            "(headshot)",
-            "headshot"]
-        for (const iterator of a) {
-            console.log(a)
-        }
+        console.log(`Killng Spree Player: ${starPlayer} has killed total of ${maxKills}`)
     }
 }
 
