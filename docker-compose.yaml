@@ -1,0 +1,64 @@
+version: "3.7"
+
+services:
+    service-csgo:
+        container_name: csgo
+        image: blast_csgo:latest
+        build:
+            context: .
+            dockerfile: game-stats/docker/Dockerfile
+            target: development
+            args:
+                NODE_ENV: dev
+        env_file:
+            - .env/common.env
+        ports:
+            - "3012:3012"
+            - "4012:4012"
+        networks:
+            game_network:
+        volumes:
+            - ./game-stats/game-service:/home/csgo_user/game-service
+            - /home/csgo_user/game-service/node_modules/
+        command: npm run start:debug
+
+    service-postgres:
+        container_name: game-postgres
+        image: postgres:14
+        networks:
+            game_network:
+                ipv4_address: 30.3.1.201
+        env_file:
+            - .env/common.env
+        ports:
+            - 5432:5432
+        volumes:
+            - csgoPgData:/var/lib/postgresql/data
+            # - ./postgres/postgresql.conf:/var/lib/postgresql/data/postgresql.conf
+            # - ./postgres/pglog:/var/lib/postgresql/data/pglog
+            # - ./postgres/dump.sql:/home/dump.sql
+
+    service-game-pgadmin:
+        container_name: game-pgadmin
+        image: dpage/pgadmin4
+        user: root
+        environment:
+            PGADMIN_DEFAULT_EMAIL: admin@admin.com
+            PGADMIN_DEFAULT_PASSWORD: root
+        ports:
+            - 5050:80
+        networks:
+            game_network:
+                # volumes:
+                #   - ./postgres/dump/:/var/lib/pgadmin/storage/admin@amin.com/nels:rw
+networks:
+    game_network:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 30.3.0.0/16
+
+volumes:
+    csgoPgData:
+    cache:

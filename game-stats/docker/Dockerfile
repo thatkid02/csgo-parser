@@ -1,0 +1,34 @@
+FROM node:16.16.0-alpine3.15 As development
+
+ARG NODE_ENV
+
+WORKDIR /home/csgo_user/game-service
+
+COPY game-stats/game-service/package*.json .
+
+RUN npm install
+
+COPY game-stats/game-service/ .
+
+RUN npm run build
+
+RUN if [[ "$NODE_ENV" != "dev" ]] ; then npm prune --production ; fi
+
+
+FROM node:16.16.0-alpine3.15 As production
+
+ENV NODE_ENV=production
+
+WORKDIR /home/csgo_user/game-service
+
+RUN set -x \
+    && addgroup -g 1005 -S "csgo_user" \
+    && adduser -u 1005 -h "/home/csgo_user" -s "/bin/sh" -g "csgo_user" -S -G "csgo_user" "csgo_user"
+
+COPY --from=development /home/csgo_user/game-service/dist ./dist
+
+COPY --from=development /home/csgo_user/game-service/node_modules ./node_modules
+
+USER csgo_user
+
+CMD [ "node", "dist/main" ]
