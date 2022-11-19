@@ -1,0 +1,492 @@
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1186 -1862 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [181 -2121 -370] with "usp_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [12 -453 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [559 633 -416] with "deagle" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [413 -52 -640] killed other "func_breakable<605>" [1040 -464 -560] with "deagle"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [927 -724 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [731 -593 -704] with "deagle" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1137 -1043 -768] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [994 -969 -722] with "m4a1_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1832 -1160 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1701 -1165 -416] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1491 -1154 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [296 -1813 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1961 -1879 -352] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [1077 -334 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1459 -570 -370] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1310 -1075 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [-192 -607 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [211 -1042 -352] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1617 -1134 -417] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1506 -1133 -419] killed other "func_breakable<907>" [406 -686 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1298 -1091 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [207 -1227 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [897 -1311 -352] with "inferno"
+ "apEX<25><STEAM_1:1:14739219><CT>" [509 -600 -400] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [561 -1226 -352] with "m4a1_silencer" (headshot penetrated)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1312 -1126 -418] killed other "func_breakable<463>" [406 -686 121] with "tec9"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1299 -1123 -417] killed other "func_breakable<458>" [406 -1114 121] with "tec9"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1299 -1123 -417] killed other "func_breakable<457>" [406 -1198 121] with "tec9"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1305 -1090 -417] killed other "func_breakable<464>" [406 -602 121] with "tec9"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1074 -1040 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [340 -573 -572] with "tec9" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [790 -1305 -640] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [952 -944 -722] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1628 -1104 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [272 -1110 -395] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [285 -933 -328] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [17 -1221 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [937 -1367 -368] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [241 -1087 -415] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [366 -959 -328] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [180 -1200 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1269 -936 -768] killed "shox <33><STEAM_1:1:23327283><CT>" [1285 -652 -576] with "awp"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1130 -1811 -635] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1179 -1354 -576] with "m4a1_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1678 -1157 -416] killed other "func_breakable<463>" [406 -686 121] with "glock"
+
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1326 -1120 -419] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1178 -1102 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [686 -1554 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [884 -488 -352] with "ak47"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1191 -1024 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "shox <33><STEAM_1:1:23327283><CT>" [-183 -970 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [8 -300 -352] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [601 -1113 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [578 -1219 -352] with "taser"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-310 -769 -155] killed other "func_breakable<463>" [406 -686 121] with "deagle"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-112 -732 -172] killed other "func_breakable<464>" [406 -602 121] with "flashbang"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-466 -881 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [36 -1211 -352] with "ak47" (headshot penetrated)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1400 -1087 -417] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [-1284 -1047 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [374 -2040 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1439 -2035 -370] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [880 -2441 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [1317 -385 -64] with "ak47" (throughsmoke)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1279 -861 -408] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1167 -2441 -352] with "usp_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1024 -400 -128] killed other "prop_dynamic<213>" [448 -1403 -416] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [2159 -432 -356] killed other "func_breakable<105>" [1414 -391 -341] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [2031 -459 -354] killed other "func_breakable<104>" [1414 -601 -341] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1327 -540 -416] killed other "func_breakable<416>" [1143 -797 -344] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1058 -424 -128] killed other "func_breakable<462>" [710 -602 121] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1215 7 -416] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [302 20 -352] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1213 3 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [82 110 -370] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1477 -2161 -416] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [975 -2456 -352] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [436 -1372 -416] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [185 -1211 -370] with "m4a1_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [459 -1382 -416] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [869 -635 -293] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [956 -582 -415] killed "s1mple<30><STEAM_1:1:36968273><CT>" [457 -1362 -352] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1900 -582 -352] killed other "func_breakable<104>" [1414 -601 -341] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [624 -1526 -608] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [1181 -1679 -576] with "awp"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [628 -1420 -608] killed "s1mple<30><STEAM_1:1:36968273><CT>" [618 -1593 -571] with "ak47"
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [716 -2020 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [1421 -1112 -352] with "ak47"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1319 -502 -416] killed other "func_breakable<416>" [1143 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [704 -1550 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [935 -729 -369] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1741 -555 -352] killed other "func_breakable<415>" [1414 -601 -341] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1360 -525 -416] killed other "func_breakable<877>" [1080 -797 -344] with "usp_silencer"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1316 -552 -416] killed other "func_breakable<878>" [1143 -797 -344] with "usp_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [953 -439 -640] killed "s1mple<30><STEAM_1:1:36968273><CT>" [934 -265 -593] with "ak47" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1415 -2416 -482] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [702 -2364 -352] with "glock" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [1121 -2439 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1468 -2432 -454] with "usp_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1986 -1933 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [169 -2145 -352] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1464 -2042 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1846 -1858 -370] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [1610 -371 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1438 -1707 -351] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><CT>" [971 -791 -128] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [436 -829 -328] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [1050 -1359 -608] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1176 -1745 -571] with "ak47"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1469 -2448 -518] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1579 -2307 -536] with "mac10"
+ "apEX<25><STEAM_1:1:14739219><CT>" [876 53 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [340 -1102 -704] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [887 -1698 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1451 -1218 -352] with "ak47" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [1067 -1891 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1531 -2013 -576] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [172 -1305 -776] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [943 -1223 -594] with "ak47" (headshot penetrated)
+ "shox <33><STEAM_1:1:23327283><CT>" [1106 -411 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [361 -1330 -704] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [481 -1816 -408] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [347 -2120 -352] with "m4a1_silencer" (attackerblind)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1280 -1972 -640] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [1022 -1577 -586] with "ak47" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [444 -305 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1376 -714 -583] with "ak47"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [637 -1610 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [885 -619 -337] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [406 -1295 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [632 -1487 -352] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1259 -1526 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [319 -2174 -352] with "ak47" (headshot)
+ "electronic<31><STEAM_1:1:41889689><CT>" [903 -686 -640] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1006 -461 -595] killed other "func_breakable<210>" [1040 -464 -560] with "bayonet"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1520 -796 -418] killed "electronic<31><STEAM_1:1:41889689><CT>" [1330 -398 -64] with "ak47" (headshot)
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [988 -2091 -416] killed "electronic<31><STEAM_1:1:41889689><CT>" [1369 -1756 -370] with "ak47"
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [1119 -1495 -416] killed "electronic<31><STEAM_1:1:41889689><CT>" [1298 -1398 -352] with "ak47" (headshot)
+ "electronic<31><STEAM_1:1:41889689><CT>" [1070 -1767 -635] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [1556 -2011 -594] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1917 -1493 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [612 -1572 -176] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [715 -1029 -772] killed "electronic<31><STEAM_1:1:41889689><CT>" [341 -1244 -706] with "ak47" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [1121 -2439 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1468 -2432 -454] with "usp_silencer" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-6 -1843 -40] killed "shox <33><STEAM_1:1:23327283><CT>" [592 -2130 -265] with "glock" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [562 -801 -151] killed other "prop_dynamic<213>" [448 -1403 -416] with "inferno"
+ "shox <33><STEAM_1:1:23327283><CT>" [1348 -737 -662] killed other "func_breakable<209>" [1040 -560 -560] with "mp9"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [927 -724 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [731 -593 -704] with "deagle" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [1610 -371 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1438 -1707 -351] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><CT>" [1077 -334 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1459 -570 -370] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><CT>" [971 -791 -128] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [436 -829 -328] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [958 -758 -128] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [629 -1226 -370] with "ak47" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [711 -470 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [978 -730 -78] with "tec9"
+ "shox <33><STEAM_1:1:23327283><CT>" [459 -1384 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "knife_m9_bayonet"
+ "shox <33><STEAM_1:1:23327283><CT>" [1050 -1359 -608] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1176 -1745 -571] with "ak47"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [1126 -398 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [326 -1313 -704] with "ak47" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [781 -1751 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1552 -1190 -352] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><CT>" [931 -1431 -416] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [729 -1294 -352] with "m4a1_silencer" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [929 -1419 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [449 -1219 -352] with "m4a1_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [17 -1221 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [937 -1367 -368] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [1384 -798 -703] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1065 -1176 -640] with "m4a1_silencer" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [1106 -411 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [361 -1330 -704] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1269 -936 -768] killed "shox <33><STEAM_1:1:23327283><CT>" [1285 -652 -576] with "awp"
+ "shox <33><STEAM_1:1:23327283><CT>" [1153 -765 -384] killed other "func_breakable<416>" [1143 -797 -344] with "knife_m9_bayonet"
+ "shox <33><STEAM_1:1:23327283><CT>" [1847 -1532 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1675 -1680 -352] with "m4a1_silencer" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [361 -1912 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [1475 -1680 -369] with "galilar"
+ "shox <33><STEAM_1:1:23327283><CT>" [-183 -970 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [8 -300 -352] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [241 -1342 -776] killed "shox <33><STEAM_1:1:23327283><CT>" [615 -1292 -724] with "galilar" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [637 -1610 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [885 -619 -337] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [516 -1652 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [591 -1523 -353] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><CT>" [831 -1327 -416] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [410 -1245 -370] with "m4a1_silencer" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-48 -1273 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [943 -1244 -369] with "galilar" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [507 -1429 -608] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [1062 -1379 -562] with "m4a1_silencer" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [1189 -1674 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [640 -1536 -544] with "deagle"
+ "b1t<35><STEAM_1:0:143170874><CT>" [819 -17 -640] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [968 -516 -576] with "usp_silencer"
+ "b1t<35><STEAM_1:0:143170874><CT>" [537 313 -320] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [826 -172 -370] with "famas" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1477 -2161 -416] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [975 -2456 -352] with "m4a1_silencer"
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [988 -2091 -416] killed "electronic<31><STEAM_1:1:41889689><CT>" [1369 -1756 -370] with "ak47"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [624 -1526 -608] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [1181 -1679 -576] with "awp"
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [716 -2020 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [1421 -1112 -352] with "ak47"
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [1119 -1495 -416] killed "electronic<31><STEAM_1:1:41889689><CT>" [1298 -1398 -352] with "ak47" (headshot)
+ "shox <33><STEAM_1:1:23327283><TERRORIST>" [1042 -1276 -408] killed "b1t<35><STEAM_1:0:143170874><CT>" [1200 -628 -352] with "ak47"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1070 -1767 -635] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [1556 -2011 -594] with "m4a1_silencer"
+ "b1t<35><STEAM_1:0:143170874><CT>" [942 -1204 -640] killed "shox <33><STEAM_1:1:23327283><TERRORIST>" [298 -1312 -718] with "famas" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [989 -550 -603] killed other "func_breakable<209>" [1040 -560 -560] with "knife_butterfly"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [406 -1332 -768] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [427 -105 -576] with "usp_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [594 625 -479] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [113 -151 -352] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [12 -453 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [559 633 -416] with "deagle" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [-192 -607 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [211 -1042 -352] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [279 -1063 -392] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [713 -467 -370] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [936 -290 -128] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [954 -585 -351] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [943 -1174 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [401 -1331 -708] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [790 -1305 -640] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [952 -944 -722] with "m4a1_silencer"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [78 78 -416] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [110 -292 -352] with "m4a1_silencer" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [200 -237 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [92 79 -369] with "ak47" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [1067 -1891 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1531 -2013 -576] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [172 -1305 -776] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [943 -1223 -594] with "ak47" (headshot penetrated)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [1003 -525 -598] killed other "func_breakable<209>" [1040 -560 -560] with "knife_butterfly"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1280 -1972 -640] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [1022 -1577 -586] with "ak47" (headshot)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [850 -583 -768] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [362 -777 -590] with "galilar" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [853 -362 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [284 -1004 -346] with "deagle"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1365 -320 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [1177 -306 -352] with "tec9" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1376 -1085 -417] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [218 -336 -416] killed "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-142 -408 -352] with "elite" (headshot)
+ "b1t<35><STEAM_1:0:143170874><CT>" [555 322 -372] killed "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [94 -98 -352] with "famas" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1659 -1109 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1512 -1088 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1414 -1092 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-255 -960 -414] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [94 -715 -370] with "ak47" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [956 -582 -415] killed "s1mple<30><STEAM_1:1:36968273><CT>" [457 -1362 -352] with "ak47" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1377 -1088 -417] killed other "func_breakable<885>" [406 -1114 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1183 -1063 -419] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1151 -1062 -419] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [1013 -1014 -768] killed "b1t<35><STEAM_1:0:143170874><CT>" [685 -637 -704] with "ak47"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1817 -1118 -416] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1709 -1098 -415] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1545 -1113 -418] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1462 -1100 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1691 -1154 -416] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1612 -1139 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1322 -1072 -417] killed other "func_breakable<896>" [406 -1114 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1174 -1028 -420] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [253 -1092 -407] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [781 -343 -352] with "ak47" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1621 -1091 -416] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-1277 -1063 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [953 -439 -640] killed "s1mple<30><STEAM_1:1:36968273><CT>" [934 -265 -593] with "ak47" (headshot)
+ "b1t<35><STEAM_1:0:143170874><CT>" [933 -1288 -640] killed "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [957 -432 -576] with "famas" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1186 -1861 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [151 -2074 -352] with "usp_silencer" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [594 625 -479] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [113 -151 -352] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1961 -1880 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [80 -2050 -352] with "m4a1_silencer" (penetrated)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [711 -470 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [978 -730 -78] with "tec9"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [279 -1063 -392] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [713 -467 -370] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [689 -342 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [347 -936 -290] with "m4a1_silencer"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [263 -1267 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [368 -1457 -352] with "deagle"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [943 -1174 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [401 -1331 -708] with "m4a1_silencer"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-192 -1099 -416] killed other "prop_door_rotating<417>" [257 -1310 -416] with "hegrenade"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-192 -1099 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "hegrenade"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [200 -237 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [92 79 -369] with "ak47" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [921 -378 -640] killed other "func_breakable<210>" [1040 -464 -560] with "ak47"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [1126 -398 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [326 -1313 -704] with "ak47" (headshot)
+ "shox <33><STEAM_1:1:23327283><CT>" [929 -1419 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [449 -1219 -352] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-131 -410 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-54 -1175 -352] with "awp"
+ "apEX<25><STEAM_1:1:14739219><CT>" [833 -2108 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [149 -2042 -352] with "m4a1_silencer"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [361 -1912 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [1475 -1680 -369] with "galilar"
+ "apEX<25><STEAM_1:1:14739219><CT>" [419 64 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [723 -1170 -723] with "m4a1_silencer" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [285 -944 -392] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [877 -707 -336] with "ak47"
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [853 -362 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [284 -1004 -346] with "deagle"
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-48 -1273 -416] killed "shox <33><STEAM_1:1:23327283><CT>" [943 -1244 -369] with "galilar" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-466 -881 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-60 -1150 -352] with "ak47" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [1189 -1674 -640] killed "shox <33><STEAM_1:1:23327283><CT>" [640 -1536 -544] with "deagle"
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [716 -503 -411] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [401 -883 -328] with "elite" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [637 -307 -128] killed other "prop_dynamic<213>" [448 -1403 -416] with "inferno"
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [294 -989 -392] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [909 -306 -64] with "famas" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [-223 -1265 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [137 -943 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [730 -1678 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [432 -953 -195] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [715 -1538 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [488 -853 -346] with "p250"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [253 -1092 -407] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [781 -343 -352] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [734 -1137 -769] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [1043 -956 -722] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1013 -384 -128] killed other "prop_dynamic<213>" [448 -1403 -416] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1173 -566 -640] killed other "func_breakable<210>" [1040 -464 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1986 -1933 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [169 -2145 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1137 -1043 -768] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [994 -969 -722] with "m4a1_silencer" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1464 -2042 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1846 -1858 -370] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1857 -1639 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1238 -2066 -344] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [689 -342 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [347 -936 -290] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [509 -600 -400] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [561 -1226 -352] with "m4a1_silencer" (headshot penetrated)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [960 -590 -415] killed "apEX<25><STEAM_1:1:14739219><CT>" [541 -550 -343] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [876 53 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [340 -1102 -704] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1074 -1040 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [340 -573 -572] with "tec9" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [887 -1698 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1451 -1218 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [884 -270 -640] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [241 -1087 -415] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [366 -959 -328] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1130 -1811 -635] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1179 -1354 -576] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1169 -921 -768] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [594 -1293 -706] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [481 -1816 -408] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [347 -2120 -352] with "m4a1_silencer" (attackerblind)
+ "apEX<25><STEAM_1:1:14739219><CT>" [810 -2187 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [272 -2022 -274] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [833 -2108 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [149 -2042 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1236 -881 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [921 -1654 -416] killed other "prop_dynamic<657>" [448 -1403 -416] with "m4a1_silencer" (penetrated)
+ "apEX<25><STEAM_1:1:14739219><CT>" [419 64 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [723 -1170 -723] with "m4a1_silencer" (headshot)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [937 -669 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [390 -381 -593] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1010 -463 -593] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [406 -1295 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [632 -1487 -352] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1058 -1539 -408] killed other "func_breakable<416>" [1143 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1049 -1512 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1014 -472 -589] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [630 -1510 -608] killed other "prop_dynamic<218>" [654 -1613 -637] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1018 -547 -588] killed other "func_breakable<209>" [1040 -560 -560] with "knife_m9_bayonet"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [1055 -1387 -608] killed "apEX<25><STEAM_1:1:14739219><CT>" [1114 -1210 -617] with "tec9" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [716 -503 -411] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [401 -883 -328] with "elite" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<461>" [710 -686 121] with "p250"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<460>" [710 -1114 121] with "p250"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1213 3 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [82 110 -370] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1520 -796 -418] killed "electronic<31><STEAM_1:1:41889689><CT>" [1330 -398 -64] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1190 -142 -416] killed "b1t<35><STEAM_1:0:143170874><CT>" [589 337 -327] with "ak47"
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [294 -989 -392] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [909 -306 -64] with "famas" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [855 -1632 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [771 -1694 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [730 -1678 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [432 -953 -195] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [628 -1420 -608] killed "s1mple<30><STEAM_1:1:36968273><CT>" [618 -1593 -571] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [704 -1550 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [935 -729 -369] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1017 -567 -587] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1917 -1493 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [612 -1572 -176] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1186 -1862 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [181 -2121 -370] with "usp_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1186 -1861 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [151 -2074 -352] with "usp_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [788 -2306 -416] killed "b1t<32><STEAM_1:0:143170874><TERRORIST>" [1407 -2389 -413] with "usp_silencer" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1415 -2416 -482] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [702 -2364 -352] with "glock" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1233 -1021 -417] killed other "func_breakable<416>" [1143 -797 -344] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [739 175 -614] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [871 -108 -576] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1484 -2053 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [599 -1814 -344] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1961 -1880 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [80 -2050 -352] with "m4a1_silencer" (penetrated)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [296 -1813 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1961 -1879 -352] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1152 -841 -392] killed other "func_breakable<416>" [1143 -797 -344] with "knife_flip"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [993 -447 -612] killed other "func_breakable<210>" [1040 -464 -560] with "knife_flip"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1064 -1193 -693] killed other "prop_dynamic<99>" [1116 -1354 -637] with "ak47"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1126 -1895 -640] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1064 -1193 -647] with "galilar" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [468 -1452 -608] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [452 -1405 -352] with "m4a1_silencer"
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1469 -2448 -518] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1579 -2307 -536] with "mac10"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [551 -1420 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [66 -1204 -357] with "awp"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [-455 -1040 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [220 -1250 -352] with "ak47" (headshot)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [728 -1294 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [443 -789 -328] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-131 -410 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-54 -1175 -352] with "awp"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [568 -1222 -753] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [848 94 -576] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1870 -1681 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [624 -2399 -352] with "awp"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [410 -1259 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1245 -2049 -331] with "ak47"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [244 -1348 -776] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [696 -1270 -724] with "glock" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [601 -1113 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [578 -1219 -352] with "taser"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [737 -1604 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [591 -1108 -352] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1259 -1526 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [319 -2174 -352] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-466 -881 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [-60 -1150 -352] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [-466 -881 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [36 -1211 -352] with "ak47" (headshot penetrated)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [374 -2040 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1439 -2035 -370] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1279 -861 -408] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1167 -2441 -352] with "usp_silencer" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1215 7 -416] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [302 20 -352] with "m4a1_silencer"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [-223 -1265 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [137 -943 -352] with "ak47" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><CT>" [436 -1372 -416] killed "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [185 -1211 -370] with "m4a1_silencer" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1219 -2144 -408] killed other "func_breakable<416>" [1143 -797 -344] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1383 -2076 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [658 -1494 -370] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [715 -1538 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [488 -853 -346] with "p250"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1388 -609 -640] killed other "func_breakable<210>" [1040 -464 -560] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1388 -608 -640] killed other "func_breakable<608>" [1040 -560 -560] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [966 -585 -640] killed "b1t<35><STEAM_1:0:143170874><CT>" [798 -1313 -576] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [740 -1146 -769] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [1127 -880 -688] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [734 -1137 -769] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [1043 -956 -722] with "ak47" (headshot)
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [715 -1029 -772] killed "electronic<31><STEAM_1:1:41889689><CT>" [341 -1244 -706] with "ak47" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [384 -1305 -768] killed "b1t<32><STEAM_1:0:143170874><TERRORIST>" [355 -693 -704] with "mp9" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [-242 -1969 -416] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [699 -2412 -352] with "m4a1_silencer"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [608 -639 -207] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [447 -874 -303] with "ak47"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [634 -1228 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [903 -656 -352] with "tec9" (headshot)
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [207 -1227 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [897 -1311 -352] with "inferno"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [358 -1470 -416] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [408 -1387 -352] with "ak47" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [263 -1267 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [368 -1457 -352] with "deagle"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [272 -1110 -395] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [285 -933 -328] with "ak47" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [921 -288 -128] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [511 -1258 -352] with "ak47" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [921 -288 -128] killed other "prop_dynamic<682>" [448 -1403 -416] with "ak47" (penetrated)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [653 -829 -416] killed other "prop_dynamic<680>" [448 -1403 -416] with "inferno"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [686 -1554 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [884 -488 -352] with "ak47"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [444 -305 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1376 -714 -583] with "ak47"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [341 -534 -633] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [849 -587 -722] with "ak47" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [120 -1326 -776] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [751 -1254 -705] with "galilar"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [855 -630 -400] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [588 -1384 -352] with "deagle" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [844 -636 -400] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [710 -1556 -370] with "deagle" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [285 -944 -392] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [877 -707 -336] with "ak47"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [880 -2441 -416] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [1317 -385 -64] with "ak47" (throughsmoke)
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [237 -448 -416] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-187 -362 -307] with "elite"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-1808 -1089 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-1667 -1116 -415] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-1521 -1124 -419] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-1441 -1114 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "b1t<35><STEAM_1:0:143170874><CT>" [546 319 -320] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [397 24 -352] with "famas" (headshot)
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [15 -843 -416] killed other "prop_door_rotating<417>" [257 -1310 -416] with "hegrenade"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [459 -1382 -416] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [869 -635 -293] with "m4a1_silencer"
+ "b1t<35><STEAM_1:0:143170874><CT>" [685 -637 -768] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [1161 -1141 -663] with "m4a1"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-432 -866 -416] killed other "prop_door_rotating<417>" [257 -1310 -416] with "hegrenade"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-432 -866 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "hegrenade"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-41 -1169 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [458 -1366 -352] with "ak47"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-1275 -1071 -418] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-355 -976 -416] killed other "prop_door_rotating<417>" [257 -1310 -416] with "hegrenade"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-365 -999 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "ak47"
+ "b1t<35><STEAM_1:0:143170874><CT>" [902 -1043 -640] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [766 -1117 -705] with "famas" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1874 -1076 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1841 -1112 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1635 -1151 -417] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1513 -1141 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-6 -1843 -40] killed "shox <33><STEAM_1:1:23327283><CT>" [592 -2130 -265] with "glock" (headshot)
+ "misutaaa<24><STEAM_1:1:60631591><CT>" [406 -1332 -768] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [427 -105 -576] with "usp_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1429 -1128 -419] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1302 -1110 -417] killed other "func_breakable<862>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1353 -1093 -418] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1472 -1090 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [739 175 -614] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [871 -108 -576] with "m4a1_silencer" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1706 -1094 -414] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1484 -2053 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [599 -1814 -344] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1800 -1155 -416] killed other "func_breakable<457>" [406 -1198 121] with "tec9"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1724 -1140 -417] killed other "func_breakable<458>" [406 -1114 121] with "tec9"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1561 -1116 -418] killed other "func_breakable<463>" [406 -686 121] with "tec9"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [608 -639 -207] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [447 -874 -303] with "ak47"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1288 -1103 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1126 -1895 -640] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [1064 -1193 -647] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1857 -1639 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1238 -2066 -344] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-112 -1133 -416] killed other "prop_door_rotating<417>" [257 -1310 -416] with "hegrenade"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-112 -1133 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "hegrenade"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [468 -1452 -608] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [452 -1405 -352] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1884 -1076 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1577 -1144 -420] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1509 -1142 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [551 -1420 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [66 -1204 -357] with "awp"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1947 -1102 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1697 -1162 -416] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1575 -1156 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "shox <33><STEAM_1:1:23327283><CT>" [781 -1751 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1552 -1190 -352] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1832 -1160 -416] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1723 -1159 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1500 -1154 -420] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1432 -1143 -420] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1386 -756 -675] killed other "func_breakable<210>" [1040 -464 -560] with "ak47"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1386 -756 -675] killed other "func_breakable<635>" [1040 -560 -560] with "ak47"
+ "shox <33><STEAM_1:1:23327283><CT>" [1384 -798 -703] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1065 -1176 -640] with "m4a1_silencer" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1748 -1085 -415] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1682 -1095 -415] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1402 -1105 -418] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "ZywOo<26><STEAM_1:1:76700232><CT>" [1870 -1681 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [624 -2399 -352] with "awp"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1450 -1085 -417] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1230 -1071 -419] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "shox <33><STEAM_1:1:23327283><CT>" [1847 -1532 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1675 -1680 -352] with "m4a1_silencer" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1874 -1076 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1830 -1104 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1580 -1125 -418] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [120 -1326 -776] killed "Kyojin<34><STEAM_1:1:22851120><CT>" [751 -1254 -705] with "galilar"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [241 -1342 -776] killed "shox <33><STEAM_1:1:23327283><CT>" [615 -1292 -724] with "galilar" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [244 -1348 -776] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [696 -1270 -724] with "glock" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1690 -1096 -414] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1625 -1105 -416] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1444 -1101 -418] killed other "func_breakable<463>" [406 -686 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1335 -1085 -417] killed other "func_breakable<464>" [406 -602 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [737 -1604 -416] killed "ZywOo<26><STEAM_1:1:76700232><CT>" [591 -1108 -352] with "m4a1_silencer"
+ "Kyojin<34><STEAM_1:1:22851120><CT>" [844 -636 -400] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [710 -1556 -370] with "deagle" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1414 -1074 -417] killed other "func_breakable<457>" [406 -1198 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1296 -1074 -417] killed other "func_breakable<458>" [406 -1114 121] with "glock"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-162 -1115 -416] killed other "prop_door_rotating<887>" [257 -1310 -416] with "hegrenade"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-162 -1115 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "hegrenade"
+ "shox <33><STEAM_1:1:23327283><CT>" [516 -1652 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [591 -1523 -353] with "m4a1_silencer"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1431 -1129 -419] killed other "func_breakable<457>" [406 -1198 121] with "tec9"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [-1342 -1127 -419] killed other "func_breakable<458>" [406 -1114 121] with "tec9"
+ "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1365 -320 -416] killed "misutaaa<24><STEAM_1:1:60631591><CT>" [1177 -306 -352] with "tec9" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [218 -336 -416] killed "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-142 -408 -352] with "elite" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [237 -448 -416] killed "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-187 -362 -307] with "elite"
+ "misutaaa<24><STEAM_1:1:60631591><TERRORIST>" [-255 -960 -414] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [94 -715 -370] with "ak47" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [791 -1051 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "mp9"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [855 -1632 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [771 -1694 -352] with "ak47" (headshot)
+ "Boombl4<29><STEAM_1:0:92970669><CT>" [634 -1246 -416] killed other "prop_dynamic<213>" [448 -1403 -416] with "hkp2000"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [1383 -2076 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [658 -1494 -370] with "ak47"
+ "Kyojin<34><STEAM_1:1:22851120><TERRORIST>" [-41 -1169 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [458 -1366 -352] with "ak47"
+ "ZywOo<26><STEAM_1:1:76700232><TERRORIST>" [740 -1146 -769] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [1127 -880 -688] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1013 -384 -128] killed other "prop_dynamic<213>" [448 -1403 -416] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1173 -566 -640] killed other "func_breakable<210>" [1040 -464 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1986 -1933 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [169 -2145 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1137 -1043 -768] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [994 -969 -722] with "m4a1_silencer" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1464 -2042 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1846 -1858 -370] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1857 -1639 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1238 -2066 -344] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [689 -342 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [347 -936 -290] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [509 -600 -400] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [561 -1226 -352] with "m4a1_silencer" (headshot penetrated)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [960 -590 -415] killed "apEX<25><STEAM_1:1:14739219><CT>" [541 -550 -343] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [876 53 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [340 -1102 -704] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1074 -1040 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [340 -573 -572] with "tec9" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [887 -1698 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1451 -1218 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [884 -270 -640] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [241 -1087 -415] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [366 -959 -328] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1130 -1811 -635] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1179 -1354 -576] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1169 -921 -768] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [594 -1293 -706] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [481 -1816 -408] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [347 -2120 -352] with "m4a1_silencer" (attackerblind)
+ "apEX<25><STEAM_1:1:14739219><CT>" [810 -2187 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [272 -2022 -274] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [833 -2108 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [149 -2042 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1236 -881 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [921 -1654 -416] killed other "prop_dynamic<657>" [448 -1403 -416] with "m4a1_silencer" (penetrated)
+ "apEX<25><STEAM_1:1:14739219><CT>" [419 64 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [723 -1170 -723] with "m4a1_silencer" (headshot)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [937 -669 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [390 -381 -593] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1010 -463 -593] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [406 -1295 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [632 -1487 -352] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1058 -1539 -408] killed other "func_breakable<416>" [1143 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1049 -1512 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1014 -472 -589] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [630 -1510 -608] killed other "prop_dynamic<218>" [654 -1613 -637] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1018 -547 -588] killed other "func_breakable<209>" [1040 -560 -560] with "knife_m9_bayonet"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [1055 -1387 -608] killed "apEX<25><STEAM_1:1:14739219><CT>" [1114 -1210 -617] with "tec9" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [716 -503 -411] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [401 -883 -328] with "elite" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<461>" [710 -686 121] with "p250"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<460>" [710 -1114 121] with "p250"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1213 3 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [82 110 -370] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1520 -796 -418] killed "electronic<31><STEAM_1:1:41889689><CT>" [1330 -398 -64] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1190 -142 -416] killed "b1t<35><STEAM_1:0:143170874><CT>" [589 337 -327] with "ak47"
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [294 -989 -392] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [909 -306 -64] with "famas" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [855 -1632 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [771 -1694 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [730 -1678 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [432 -953 -195] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [628 -1420 -608] killed "s1mple<30><STEAM_1:1:36968273><CT>" [618 -1593 -571] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [704 -1550 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [935 -729 -369] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1017 -567 -587] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1917 -1493 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [612 -1572 -176] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1013 -384 -128] killed other "prop_dynamic<213>" [448 -1403 -416] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1173 -566 -640] killed other "func_breakable<210>" [1040 -464 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1986 -1933 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [169 -2145 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1137 -1043 -768] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [994 -969 -722] with "m4a1_silencer" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [1464 -2042 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1846 -1858 -370] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1857 -1639 -416] killed "Boombl4<29><STEAM_1:0:92970669><TERRORIST>" [1238 -2066 -344] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [689 -342 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [347 -936 -290] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [509 -600 -400] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [561 -1226 -352] with "m4a1_silencer" (headshot penetrated)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [960 -590 -415] killed "apEX<25><STEAM_1:1:14739219><CT>" [541 -550 -343] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [876 53 -640] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [340 -1102 -704] with "m4a1_silencer"
+ "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1074 -1040 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [340 -573 -572] with "tec9" (headshot)
+ "electronic<31><STEAM_1:1:41889689><TERRORIST>" [887 -1698 -416] killed "apEX<25><STEAM_1:1:14739219><CT>" [1451 -1218 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [884 -270 -640] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [241 -1087 -415] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [366 -959 -328] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1130 -1811 -635] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [1179 -1354 -576] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1169 -921 -768] killed "b1t<35><STEAM_1:0:143170874><TERRORIST>" [594 -1293 -706] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [481 -1816 -408] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [347 -2120 -352] with "m4a1_silencer" (attackerblind)
+ "apEX<25><STEAM_1:1:14739219><CT>" [810 -2187 -416] killed "s1mple<30><STEAM_1:1:36968273><TERRORIST>" [272 -2022 -274] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [833 -2108 -416] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [149 -2042 -352] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1236 -881 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [921 -1654 -416] killed other "prop_dynamic<657>" [448 -1403 -416] with "m4a1_silencer" (penetrated)
+ "apEX<25><STEAM_1:1:14739219><CT>" [419 64 -640] killed "Perfecto<28><STEAM_1:0:80477379><TERRORIST>" [723 -1170 -723] with "m4a1_silencer" (headshot)
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [937 -669 -768] killed "apEX<25><STEAM_1:1:14739219><CT>" [390 -381 -593] with "galilar" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1010 -463 -593] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [406 -1295 -416] killed "electronic<31><STEAM_1:1:41889689><TERRORIST>" [632 -1487 -352] with "m4a1_silencer" (headshot)
+ "apEX<25><STEAM_1:1:14739219><CT>" [1058 -1539 -408] killed other "func_breakable<416>" [1143 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1049 -1512 -408] killed other "func_breakable<415>" [1080 -797 -344] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1014 -472 -589] killed other "func_breakable<210>" [1040 -464 -560] with "knife_m9_bayonet"
+ "apEX<25><STEAM_1:1:14739219><CT>" [630 -1510 -608] killed other "prop_dynamic<218>" [654 -1613 -637] with "usp_silencer"
+ "apEX<25><STEAM_1:1:14739219><CT>" [1018 -547 -588] killed other "func_breakable<209>" [1040 -560 -560] with "knife_m9_bayonet"
+ "b1t<35><STEAM_1:0:143170874><TERRORIST>" [1055 -1387 -608] killed "apEX<25><STEAM_1:1:14739219><CT>" [1114 -1210 -617] with "tec9" (headshot)
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [716 -503 -411] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [401 -883 -328] with "elite" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<461>" [710 -686 121] with "p250"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [-18 -852 32] killed other "func_breakable<460>" [710 -1114 121] with "p250"
+ "s1mple<30><STEAM_1:1:36968273><CT>" [1213 3 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [82 110 -370] with "m4a1_silencer"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1520 -796 -418] killed "electronic<31><STEAM_1:1:41889689><CT>" [1330 -398 -64] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1190 -142 -416] killed "b1t<35><STEAM_1:0:143170874><CT>" [589 337 -327] with "ak47"
+ "Perfecto<28><STEAM_1:0:80477379><CT>" [294 -989 -392] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [909 -306 -64] with "famas" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [855 -1632 -416] killed "Boombl4<29><STEAM_1:0:92970669><CT>" [771 -1694 -352] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [730 -1678 -416] killed "Perfecto<28><STEAM_1:0:80477379><CT>" [432 -953 -195] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [628 -1420 -608] killed "s1mple<30><STEAM_1:1:36968273><CT>" [618 -1593 -571] with "ak47"
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [704 -1550 -416] killed "s1mple<30><STEAM_1:1:36968273><CT>" [935 -729 -369] with "ak47" (headshot)
+ "apEX<25><STEAM_1:1:14739219><TERRORIST>" [1017 -567 -587] killed other "func_breakable<209>" [1040 -560 -560] with "usp_silencer"
+ "electronic<31><STEAM_1:1:41889689><CT>" [1917 -1493 -416] killed "apEX<25><STEAM_1:1:14739219><TERRORIST>" [612 -1572 -176] with "m4a1_silencer" (headshot)

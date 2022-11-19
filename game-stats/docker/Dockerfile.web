@@ -1,0 +1,37 @@
+FROM node:16.16.0-alpine3.15 As development
+
+ARG NODE_ENV
+
+WORKDIR /home/csgo_user/game-web
+
+COPY game-stats/game-web/package*.json .
+
+RUN npm install
+RUN npm install -g @angular/cli@15.0.0
+RUN npm install @angular/material@15.0.0 --save @angular/cdk
+RUN npm install --save @angular/animations
+
+COPY game-stats/game-web/ .
+
+RUN npm run build
+
+EXPOSE 4200
+
+# FROM nginx:alpine as production
+
+# WORKDIR /home/csgo_user/game-web
+
+# RUN set -x \
+#     && addgroup -g 1005 -S "csgo_user" \
+#     && adduser -u 1005 -h "/home/csgo_user" -s "/bin/sh" -g "csgo_user" -S -G "csgo_user" "csgo_user"
+
+
+# COPY --from=development /home/csgo_user/game-web/dist /usr/share/nginx/html
+
+# USER csgo_user
+
+# ARG port=80
+# ENV PORT $port
+# EXPOSE $port
+
+# CMD ["nginx", "-g", "daemon off;"]

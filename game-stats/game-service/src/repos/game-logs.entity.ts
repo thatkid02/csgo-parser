@@ -10,5 +10,8 @@ export class GameLogs extends BaseEntity {
     log: string
 
     @Column()
+    type: RegExp
+    
+    @Column()
     parsed_log: string
 }

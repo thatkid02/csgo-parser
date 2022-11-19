@@ -6,7 +6,7 @@ services:
         image: blast_csgo:latest
         build:
             context: .
-            dockerfile: game-stats/docker/Dockerfile
+            dockerfile: game-stats/docker/Dockerfile.api
             target: development
             args:
                 NODE_ENV: dev
@@ -17,10 +17,32 @@ services:
             - "4012:4012"
         networks:
             game_network:
+                ipv4_address: 30.3.1.200
         volumes:
             - ./game-stats/game-service:/home/csgo_user/game-service
             - /home/csgo_user/game-service/node_modules/
         command: npm run start:debug
+    
+    service-csgo-ui:
+        container_name: csgo-ui
+        image: blast_csgo_ui:latest
+        build:
+            context: .
+            dockerfile: game-stats/docker/Dockerfile.web
+            target: development
+            args:
+                NODE_ENV: dev
+        env_file:
+            - .env/common.env
+        ports:
+         - 4200:4200
+        networks:
+            game_network:
+        volumes:
+            - ./game-stats/game-web:/home/csgo_user/game-web
+            - /home/csgo_user/game-web/node_modules/
+        command: npm run start
+        
 
     service-postgres:
         container_name: game-postgres
