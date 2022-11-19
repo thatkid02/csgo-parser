@@ -19,7 +19,7 @@ services:
             game_network:
                 ipv4_address: 30.3.1.200
         volumes:
-            - ./game-stats/game-service:/home/csgo_user/game-service
+            - ./game-stats/game-api-service:/home/csgo_user/game-service
             - /home/csgo_user/game-service/node_modules/
         command: npm run start:debug
     
