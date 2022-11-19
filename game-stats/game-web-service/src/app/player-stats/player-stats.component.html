@@ -1,0 +1,45 @@
+
+<table style="background-color: rgba(255,255,255,0.1); " mat-table
+       [dataSource]="players" multiTemplateDataRows
+       matSort (matSortChange)="sortData($event)"
+       class="mat-elevation-z8">
+  <ng-container matColumnDef="{{column}}" *ngFor="let column of columnsToDisplayPlayer" >
+    <th mat-header-cell *matHeaderCellDef mat-sort-header > {{column}} </th>
+    <td mat-cell *matCellDef="let element"> {{element[column]}} </td>
+  </ng-container>
+  <ng-container matColumnDef="expand">
+    <th mat-header-cell *matHeaderCellDef aria-label="row actions">&nbsp;</th>
+    <td mat-cell *matCellDef="let element">
+      <button mat-icon-button aria-label="expand row" (click)="(expandedElement = expandedElement === element ? null : element); $event.stopPropagation()">
+        <mat-icon *ngIf="expandedElement !== element">keyboard_arrow_down</mat-icon>
+        <mat-icon *ngIf="expandedElement === element">keyboard_arrow_up</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="expandedDetail">
+    <td mat-cell *matCellDef="let element" [attr.colspan]="columnsToDisplayWithExpand.length">
+      <div class="element-detail"
+           [@detailExpand]="element == expandedElement ? 'expanded' : 'collapsed'">
+        <div class="element-diagram">
+          <div class="element-weight">TERRORIST: {{element.game.tSideScore}} </div>
+          <div class="element-weight">CT: {{element.game.ctSideScore}} </div>
+          <div>Victims: [ {{element.game.victims}} ]</div>
+          <div >Weapons:[ {{element.game.weapons}} ]</div>
+          Profile: <a href={{element.wiki}}>{{element.wiki}}</a>
+        </div>
+
+      </div>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="columnsToDisplayWithExpand"></tr>
+  <tr mat-row *matRowDef="let element; columns: columnsToDisplayWithExpand;"
+      class="element-row"
+      [class.expanded-row]="expandedElement === element"
+      (click)="expandedElement = expandedElement === element ? null : element">
+  </tr>
+  <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="detail-row"></tr>
+</table>
+
+<mat-divider style="padding-top: 100px;"></mat-divider>

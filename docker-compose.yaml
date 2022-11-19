@@ -39,7 +39,7 @@ services:
         networks:
             game_network:
         volumes:
-            - ./game-stats/game-web:/home/csgo_user/game-web
+            - ./game-stats/game-web-service:/home/csgo_user/game-web
             - /home/csgo_user/game-web/node_modules/
         command: npm run start
         
