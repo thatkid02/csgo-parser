@@ -1,0 +1,23 @@
+<mat-table [dataSource]="roundData" class="mat-elevation-z8" style="background-color: rgba(255,255,255,0.1);">
+    <ng-container matColumnDef="roundNumber">
+      <mat-header-cell mat-header-cell *matHeaderCellDef [ngClass]="'customWidthClass'"> Round Number </mat-header-cell>
+      <mat-cell mat-cell *matCellDef="let element" [ngClass]="'customWidthClass'"> {{element.roundNumber}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="duration">
+        <mat-header-cell mat-header-cell *matHeaderCellDef> Duration </mat-header-cell>
+        <mat-cell mat-cell *matCellDef="let element"> {{element.duration}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="team">
+        <mat-header-cell mat-header-cell *matHeaderCellDef> Team Score (CT - TERRORIST) </mat-header-cell>
+        <mat-cell mat-cell *matCellDef="let element"> {{element.team.ctScore}} - {{element.team.tScore}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="teamName">
+        <mat-header-cell mat-header-cell *matHeaderCellDef> Team Name </mat-header-cell>
+        <mat-cell mat-cell *matCellDef="let element"> {{element.team.ctTeam}} - {{element.team.tTeam}} </mat-cell>
+    </ng-container>
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+
+<mat-divider style="padding-top: 100px;"></mat-divider>

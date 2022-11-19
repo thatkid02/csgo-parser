@@ -1,0 +1,8 @@
+.customWidthClass {
+    flex: 0 0 75px;
+}
+
+.th {
+    font-size: large;
+    color: white;
+}

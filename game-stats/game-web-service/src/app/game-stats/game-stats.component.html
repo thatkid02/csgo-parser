@@ -1,0 +1,34 @@
+<mat-grid-list cols="4" rowHeight="400px">
+  <mat-grid-tile aria-colspan="1" aria-rowspan="3">
+    <mat-card class="card" style="background-color: rgba(255,255,255,0.1);">
+      <img mat-card-image width="100%" height="auto" src="{{loosingTeamLogo}}">
+    </mat-card>
+  </mat-grid-tile>
+  <mat-grid-tile aria-colspan="1" aria-rowspan="1" style="background-color: rgba(255,255,255,0.05);">
+    <h2 style="font-size: 70px;"><b>{{loosingTeamScore}}</b></h2>
+  </mat-grid-tile>
+
+  <mat-grid-tile aria-colspan="1" aria-rowspan="1"  style="background-color: rgba(255,255,255,0.05);">
+    <h2 style="font-size: 70px;"><b>{{winningTeamScore}}</b></h2>
+  </mat-grid-tile>
+
+  <mat-grid-tile aria-colspan="1" aria-rowspan="3">
+    <mat-card class="card" style="background-color: rgba(255,255,255,0.1);">
+      <img mat-card-image width="100%" height="auto" src="{{winningTeamLogo}}">
+    </mat-card>
+  </mat-grid-tile>
+
+</mat-grid-list>
+<mat-divider></mat-divider>
+
+<div style="max-height: 30px;">
+  <marquee
+  direction="left"
+  style="font-family: Rajdhani, sans-serif; color: #FFFFFF;font-size: small;"
+  bgcolor="#00224f"
+  scrolldelay="300"
+  behavior="loop"
+  >{{highlights.message}}
+</marquee>
+</div>
+
