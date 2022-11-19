@@ -6,3 +6,4 @@
 * Move the env from ```/game-stats/docker/.env to .``` [same context of compose file]
 * `docker-compose up -d` this would give the logs for the game stats
 * `docker-compose up service-csgo` to follow logs and get the analysis
+* `http://localhost:4200` default angular project expose
