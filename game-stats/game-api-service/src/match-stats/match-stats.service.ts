@@ -51,7 +51,8 @@ export class MatchStatsService {
         this.getDiffusingMvpPlayer()
         this.setRoundScore()
         this.#logger.write(JSON.stringify(this.#roundLogData))
-        // const plogs = this.setMetaData(this.#logData)
+
+        const plogs = this.setMetaData(this.#logData)
 
     }
 
@@ -65,11 +66,23 @@ export class MatchStatsService {
         log.forEach(line => {
             const parsedLog = line.split(": ", 2)
 
-            const type = this.getLogAllPatern(parsedLog[1])
+            const [matchedPattern, key] = this.getLogAllPatern(parsedLog[1])
             let meta = {}
-            if (type) {
-                meta = { time: new Date(parsedLog[0].replace("-", "")), type: type }
+            if (matchedPattern) {
+                meta = { time: new Date(parsedLog[0].replace("-", "")), type: matchedPattern }
                 metaData.push(meta)
+
+                //  TODO: Check if match id present then do not insert
+                // this.matchStatsWrite.insertGameLogs(
+                //     {
+                //         matchId: "nels",
+                //         rawLog: line,
+                //         logTime: new Date(parsedLog[0].replace("-", "")),
+                //         logPatternType: key,
+                //         logParsedItems: matchedPattern,
+                //     }).then(res =>{
+                //         console.log(res)
+                //     })
                 this.#logger.write(JSON.stringify(meta) + "\n")
             }
 
@@ -88,8 +101,9 @@ export class MatchStatsService {
     }
 
     getLogAllPatern(log) {
-        let matchedPattern;
-        mapped.forEach((pattern) => {
+        let matchedPattern; let key
+        mapped.forEach((pattern, key) => {
+            key = key
             const match = pattern.test(log)
             if (match) {
                 matchedPattern = pattern.exec(log)
@@ -97,7 +111,7 @@ export class MatchStatsService {
             return false;
         })
 
-        return matchedPattern
+        return [matchedPattern, key]
 
     }
     getLogForPattern(line: string, pattern: RegExp) {
@@ -284,7 +298,7 @@ export class MatchStatsService {
             mvpPlayer = player.game.diffusedBombCount > maxDiffuse ? player.name : mvpPlayer;
             maxDiffuse = player.game.diffusedBombCount > maxDiffuse ? player.game.diffusedBombCount : maxDiffuse
         });
-        const bombKiller= `Mvp Bomb Diffusing Player: ${mvpPlayer} has diffuced ${maxDiffuse} times.`
+        const bombKiller = `Mvp Bomb Diffusing Player: ${mvpPlayer} has diffuced ${maxDiffuse} times.`
         console.log(bombKiller)
         this.#MaxBombDiffusePlayer = bombKiller
     }
@@ -314,8 +328,8 @@ export class MatchStatsService {
         return { ctTeam: matchRound.team.ctTeam, ctTeamScore: matchRound.team.ctScore, tTeam: matchRound.team.tTeam, tTeamScore: matchRound.team.tScore }
     }
 
-    getHighlights(){
-        const highlight = [this.#KillingSpreePlayer, this.#VersatilePlayer,this.#MaxBombDiffusePlayer, this.#LongestRound]
+    getHighlights() {
+        const highlight = [this.#KillingSpreePlayer, this.#VersatilePlayer, this.#MaxBombDiffusePlayer, this.#LongestRound]
         return { message: highlight }
     }
 }
