@@ -51,8 +51,7 @@ export class MatchStatsService {
         this.getDiffusingMvpPlayer()
         this.setRoundScore()
         this.#logger.write(JSON.stringify(this.#roundLogData))
-
-        const plogs = this.setMetaData(this.#logData)
+        // const plogs = this.setMetaData(this.#logData)
 
     }
 
