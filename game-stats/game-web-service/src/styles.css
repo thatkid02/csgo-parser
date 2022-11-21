@@ -16,10 +16,10 @@ body {
     overflow-x: hidden;
 }
 
-.mat-grid-tile-content{
-    height: 70% !important;
-    padding: 10px !important;
+.mat-grid-tile-content {
+    height: 50% !important;
 }
+
 .back {
     content: "";
     top: 0;
@@ -30,7 +30,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: blur(2px); 
+    backdrop-filter: blur(2px);
 }
 
 .content {
@@ -40,7 +40,7 @@ body {
     z-index: 9999;
     margin-left: 100px;
     margin-right: 100px;
-  }
+}
 
 .thepic {
     position: absolute;
@@ -51,21 +51,15 @@ body {
     filter: brightness(90%) contrast(90%) blur(2px) grayscale(10%);
 }
 
-.hidden{
+.hidden {
     opacity: 0;
     filter: blur(5px);
     transform: translateX(100%);
     transition: all 1s;
 }
 
-.show{
+.show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0%);
-}
-
-@media(prefers-reduced-motion){
-    .hidden{
-        transition: none;
-    }
 }
