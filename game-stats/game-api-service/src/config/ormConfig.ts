@@ -1,3 +1,4 @@
+import { _MetaLogs } from "src/repos/meta-logs.entity";
 import { PostgresConnectionOptions } from "typeorm/driver/postgres/PostgresConnectionOptions";
 /**
  * Postgres DB settings value from env
@@ -9,7 +10,7 @@ const config: PostgresConnectionOptions = {
     username: process.env.GAME_POSTGRES_DB_USER,
     password: process.env.GAME_POSTGRES_DB_PASSWORD,
     database: process.env.GAME_POSTGRES_DB_NAME,
-    entities: ["node_modules/@Pkg/uca-entities/**/*.entity{.ts,.js}"],
+    entities: [ _MetaLogs],
     synchronize: false,
 };
 

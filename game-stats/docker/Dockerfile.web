@@ -4,14 +4,14 @@ ARG NODE_ENV
 
 WORKDIR /home/csgo_user/game-web
 
-COPY game-stats/game-web/package*.json .
+COPY game-stats/game-web-service/package*.json .
 
 RUN npm install
 RUN npm install -g @angular/cli@15.0.0
 RUN npm install @angular/material@15.0.0 --save @angular/cdk
 RUN npm install --save @angular/animations
 
-COPY game-stats/game-web/ .
+COPY game-stats/game-web-service/ .
 
 RUN npm run build
 

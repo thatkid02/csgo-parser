@@ -4,11 +4,11 @@ ARG NODE_ENV
 
 WORKDIR /home/csgo_user/game-service
 
-COPY game-stats/game-service/package*.json .
+COPY game-stats/game-api-service/package*.json .
 
 RUN npm install
 
-COPY game-stats/game-service/ .
+COPY game-stats/game-api-service/ .
 
 RUN npm run build
 

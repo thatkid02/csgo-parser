@@ -6,10 +6,10 @@ import { TypeOrmModule } from "@nestjs/typeorm";
 import { MatchStatsService } from "./match-stats.service";
 import { MatchStatsWriteDal } from "./match-stats.write.dal";
 import { MatchStatsController } from "./match-stats.controller";
-import { GameLogs } from "src/repos/game-logs.entity";
+import { _MetaLogs } from "src/repos/meta-logs.entity";
 
 @Module({
-    imports: [ TypeOrmModule.forFeature([GameLogs])],
+    imports: [ TypeOrmModule.forFeature([_MetaLogs])],
     controllers: [MatchStatsController],
     providers: [
         MatchStatsWriteDal,

@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: large;
+    color: rgb(255, 255, 255) !important;
+    /* overflow: hidden; */
+    margin: 0;
+    /* padding: 30px; */
+
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.mat-grid-tile-content{
+    height: 70% !important;
+    padding: 10px !important;
+}
+.back {
+    content: "";
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    background-image: url(https://i.pinimg.com/originals/f5/9e/3f/f59e3f17732a55513adc16575210f35c.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px); 
+}
+
+.content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+.thepic {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: fill;
+    -webkit-filter: brightness(90%) contrast(90%) blur(2px) grayscale(10%);
+    filter: brightness(90%) contrast(90%) blur(2px) grayscale(10%);
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0%);
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition: none;
+    }
+}
