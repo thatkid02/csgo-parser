@@ -9,11 +9,29 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript">
+
+      const observer = new IntersectionObserver((entries) => {
+       
+        entries.forEach((entry) => {
+          
+          if (entry.isIntersecting) {
+            entry.target.classList.add('show');
+          } else {
+            entry.target.classList.remove('show');
+          }
+        });
+      });
+      window.addEventListener("load", (event) => {
+      const hiddenElements = document.querySelectorAll('.hidden');
+      hiddenElements.forEach((el) => observer.observe(el));
+      }, false)
+  </script>
 </head>
 
-<body class="mat-typography mat-app-background back">  
-  <app-root style="background-color: rgba(255,255,255,0.1);">
-    NELOSN
+<body class="mat-typography mat-app-background back">
+  <app-root class="content" style="background-color: rgba(255,255,255,0.1);">
   </app-root>
 </body>
+
 </html>
