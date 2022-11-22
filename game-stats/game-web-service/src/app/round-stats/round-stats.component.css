@@ -2,7 +2,11 @@
     flex: 0 0 75px;
 }
 
-.th {
-    font-size: large;
-    color: white;
+
+mat-table {
+  color: white !important;
+}
+
+mat-row:hover {
+  background-color: rgba(0, 74, 134, 0) !important
 }

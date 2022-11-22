@@ -1,5 +1,6 @@
 table {
   width: 100%;
+  border: 2px solid;
 }
 
 tr.detail-row {
@@ -35,6 +36,11 @@ tr.element-row:not(.expanded-row):active {
   height: 100px;
 }
 
-.mat-cell {
-  color: white;
+th,
+td {
+  color: white !important;
+}
+
+tr:hover {
+  background-color: rgba(0, 30, 54, 0) !important
 }

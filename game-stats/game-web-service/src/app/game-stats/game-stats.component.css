@@ -1,4 +1,18 @@
 
 .card {
-    max-width: 400px;
+    max-width: 250px;
+}
+
+.logos {
+    display: flex;
+}
+
+.logo:nth-child(2){
+    transition-delay: 200ms;
+}
+.logo:nth-child(3){
+    transition-delay: 400ms
+}
+.logo:nth-child(4){
+    transition-delay: 600ms
 }
