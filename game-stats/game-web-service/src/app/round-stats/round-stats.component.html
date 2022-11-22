@@ -1,22 +1,23 @@
 
 <mat-divider style="padding-top: 100px;"></mat-divider>
+<div class="text">Match Rounds Info</div>
 
-<mat-table style="width:800px !important;" [dataSource]="roundData" class="mat-elevation-z8" style="background-color: rgba(255,255,255,0.1);">
+<mat-table style="background-color: rgba(255,255,255,0.1);width:800px !important;border: 2px solid !important" [dataSource]="roundData" class="mat-elevation-z8" >
     <ng-container matColumnDef="roundNumber">
-      <mat-header-cell mat-header-cell *matHeaderCellDef [ngClass]="'customWidthClass'"> Round Number </mat-header-cell>
-      <mat-cell mat-cell *matCellDef="let element" [ngClass]="'customWidthClass'"> {{element.roundNumber}} </mat-cell>
+      <mat-header-cell [style.color]="'white'"  mat-header-cell *matHeaderCellDef [ngClass]="'customWidthClass'"> Round Number </mat-header-cell>
+      <mat-cell [style.color]="'white'" mat-cell *matCellDef="let element" [ngClass]="'customWidthClass'"> {{element.roundNumber}} </mat-cell>
     </ng-container>
     <ng-container matColumnDef="duration">
-        <mat-header-cell mat-header-cell *matHeaderCellDef> Duration </mat-header-cell>
-        <mat-cell mat-cell *matCellDef="let element"> {{element.duration}} </mat-cell>
+        <mat-header-cell [style.color]="'white'"  mat-header-cell *matHeaderCellDef> Duration </mat-header-cell>
+        <mat-cell mat-cell [style.color]="'white'"  *matCellDef="let element"> {{element.duration}} </mat-cell>
     </ng-container>
     <ng-container matColumnDef="team">
-        <mat-header-cell mat-header-cell *matHeaderCellDef> Team Score (CT - TERRORIST) </mat-header-cell>
-        <mat-cell mat-cell *matCellDef="let element"> {{element.team.ctScore}} - {{element.team.tScore}} </mat-cell>
+        <mat-header-cell [style.color]="'white'"  mat-header-cell *matHeaderCellDef> Team Score (CT - TERRORIST) </mat-header-cell>
+        <mat-cell mat-cell [style.color]="'white'"  *matCellDef="let element"> {{element.team.ctScore}} - {{element.team.tScore}} </mat-cell>
     </ng-container>
     <ng-container matColumnDef="teamName">
-        <mat-header-cell mat-header-cell *matHeaderCellDef> Team Name </mat-header-cell>
-        <mat-cell mat-cell *matCellDef="let element"> {{element.team.ctTeam}} - {{element.team.tTeam}} </mat-cell>
+        <mat-header-cell [style.color]="'white'"  mat-header-cell *matHeaderCellDef> Team Name </mat-header-cell>
+        <mat-cell mat-cell [style.color]="'white'"  *matCellDef="let element"> {{element.team.ctTeam}} - {{element.team.tTeam}} </mat-cell>
     </ng-container>
   
     <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>

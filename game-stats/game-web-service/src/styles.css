@@ -63,3 +63,12 @@ body {
     filter: blur(0);
     transform: translateX(0%);
 }
+
+.text {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin: 24px;
+}
