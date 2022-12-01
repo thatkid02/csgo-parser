@@ -46,14 +46,14 @@ export class GameStatsComponent implements OnInit {
     }
 
     async getGameHighlights() {
-        await this.http.get('http://30.3.1.200:3012/highlights').subscribe(response => {
+        await this.http.get('http://localhost:3012/highlights').subscribe(response => {
             this.highlights = response;
         })
 
     }
 
     getGameScore() {
-        this.match = this.http.get('http://30.3.1.200:3012/match').subscribe(response => {
+        this.match = this.http.get('http://localhost:3012/match').subscribe(response => {
             this.match = response;
             const ct = Number.parseInt(this.match.ctTeamScore)
             const t =  Number.parseInt(this.match.tTeamScore )

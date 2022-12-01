@@ -16,7 +16,7 @@ export class RoundStatsComponent {
   }
 
   async getAllRounds() {
-    await this.http.get('http://30.3.1.200:3012/rounds').subscribe(response => {
+    await this.http.get('http://localhost:3012/rounds').subscribe(response => {
       this.roundData = response;
     })
 

@@ -25,7 +25,7 @@ export class PlayerStatsComponent implements OnInit {
   }
 
   async getAllPlayers() {
-    await this.http.get('http://30.3.1.200:3012/players').subscribe(response => {
+    await this.http.get('http://localhost:3012/players').subscribe(response => {
       this.players = response;
     })
 
