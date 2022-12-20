@@ -26,8 +26,7 @@ export class MatchStatsService {
     constructor(
         private readonly matchStatsWrite: MatchStatsWriteDal,
     ) {
-        this.#file = fs.readFileSync('./src/resources/gameStart.txt', 'utf8');
-        this.#logData = this.#file.split(/\r?\n/);
+        this.#logData = this.csgoLogs.split(/\r?\n/);
         this.#logger = fs.createWriteStream('playersInfo.json', {
             // flags: 'a' 
         })
