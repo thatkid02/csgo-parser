@@ -19,7 +19,7 @@ export class MatchStatsController {
         return this.matchStatsService.getDataFromAllLog(res);
     }
 
-    @Get("/players")
+    @Get("/playerss")
     async getPlayers(@Res() res: Response) {
         res.status(200).header({}).send(this.matchStatsService.getAllPlayers());
     }

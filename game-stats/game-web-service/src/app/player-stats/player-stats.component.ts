@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { HttpClient } from '@angular/common/http';
 import { Sort } from '@angular/material/sort';
+import { MessageService } from '../messages/message.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-player-stats',
@@ -15,26 +17,29 @@ import { Sort } from '@angular/material/sort';
     ]),
   ],
 })
-export class PlayerStatsComponent implements OnInit {
+export class PlayerStatsComponent {
   players: any = null;
   http;
 
-  constructor(http: HttpClient) {
+  constructor(http: HttpClient, private readonly messageService: MessageService) {
     this.http = http;
     this.sortedData = this.players;
   }
 
   async getAllPlayers() {
-    await this.http.get('http://localhost:3012/players').subscribe(response => {
+    await this.http.get('http://localhost:3012/players').subscribe((response: any) => {
       this.players = response;
     })
 
   }
-
-  async ngOnInit() {
-    await this.getAllPlayers()
+  
+  async ngAfterViewInit() {
+    (await this.messageService.getMessage()).subscribe((response: any) => {
+      this.players = response;
+    });
+    
   }
-
+  
   columnsToDisplayPlayer = ['name', 'pId', 'team', 'kills'];
 
   columnsToDisplayWithExpand = [...this.columnsToDisplayPlayer, 'expand'];

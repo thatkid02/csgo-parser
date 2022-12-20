@@ -1,4 +1,4 @@
-FROM node:16.16.0-alpine3.15 As development
+FROM node:19.3.0-alpine3.17 As development
 
 ARG NODE_ENV
 
@@ -15,7 +15,7 @@ RUN npm run build
 RUN if [[ "$NODE_ENV" != "dev" ]] ; then npm prune --production ; fi
 
 
-FROM node:16.16.0-alpine3.15 As production
+FROM node:19.3.0-alpine3.17 As production
 
 ENV NODE_ENV=production
 

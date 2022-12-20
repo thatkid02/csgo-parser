@@ -1,7 +1,7 @@
 /** Nest and Other NPM Packages **/
-import { Injectable, Req, Res, HttpStatus } from "@nestjs/common";
+import { Injectable, Inject, Req, Res, HttpStatus } from "@nestjs/common";
 import * as fs from 'fs';
-import { AllPatterns, mapped, MetaData, Player, PlayerBombDefusedPattern, PlayerKillPattern, PlayerKillScore, RoundInfo, RoundScorePattern, TeamPlayingPattern, TeamScore, WorldRoundEndPattern, WorldRoundStartPattern } from "./match-stats.types";
+import { AllPatterns, mapped, MetaData, Player, PlayerBombDefusedPattern, PlayerKillPattern, PlayerKillScore, RoundInfo, RoundScorePattern, TeamPlayingPattern, TeamScore, WorldRoundEndPattern, WorldRoundStartPattern } from "../common/common.types";
 const execSync = require('child_process').execSync;
 
 /** Service module imports **/
@@ -9,7 +9,8 @@ import { MatchStatsWriteDal } from "./match-stats.write.dal";
 
 @Injectable()
 export class MatchStatsService {
-    #file;
+    csgoLogs: any;
+
     #logger;
     #logData: string[];
     #players: Player[];
@@ -20,20 +21,17 @@ export class MatchStatsService {
     #LongestRound = ""
     #VersatilePlayer = ""
     #teamSide;
-
     private readonly csgoLogPattern = new RegExp(/(\d{2}\/\d{2}\/\d{4} - \d{2}:\d{2}:\d{2}): (.*)/i);
 
     constructor(
         private readonly matchStatsWrite: MatchStatsWriteDal,
-    ) {
+    ) {}
+
+    onModuleInit() {
         this.#logData = this.csgoLogs.split(/\r?\n/);
         this.#logger = fs.createWriteStream('playersInfo.json', {
             // flags: 'a' 
         })
-    }
-
-
-    onModuleInit() {
         this.#players = this.getPlayers();
 
         this.setPlayerKillLogs();

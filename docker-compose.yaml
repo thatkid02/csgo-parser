@@ -1,15 +1,45 @@
 version: "3.7"
 
 services:
-    service-csgo:
-        container_name: csgo
-        image: blast_csgo:latest
+    service-csgo-logstream:
+        container_name: csgo-logstream
+        image: blast_csgo_logstream:latest
+        build:
+            context: .
+            dockerfile: game-stats/docker/Dockerfile.stream
+            target: development
+            args:
+                NODE_ENV: dev
+        depends_on:
+            - service-redis
+            - service-postgres
+        env_file:
+            - .env/common.env
+        ports:
+            - "3011:3011"
+            - "4011:4011"
+        networks:
+            game_network:
+                ipv4_address: 30.3.1.200
+        volumes:
+            - ./game-stats/game-stream-service:/home/csgo_user/game-service
+            - /home/csgo_user/game-service/node_modules/
+            # - ./game-stats/game-stream-service/node_modules/:/home/csgo_user/game-service/node_modules/
+        command: npm run start:debug
+
+    service-csgo-api:
+        container_name: csgo-api
+        image: blast_csgo_api:latest
         build:
             context: .
             dockerfile: game-stats/docker/Dockerfile.api
             target: development
             args:
                 NODE_ENV: dev
+        # depends_on:
+        #     - service-redis
+        #     - service-postgres
+        #     - service-csgo-logstream
         env_file:
             - .env/common.env
         ports:
@@ -17,10 +47,11 @@ services:
             - "4012:4012"
         networks:
             game_network:
-                ipv4_address: 30.3.1.200
+                ipv4_address: 30.3.1.201
         volumes:
             - ./game-stats/game-api-service:/home/csgo_user/game-service
             - /home/csgo_user/game-service/node_modules/
+            # - ./game-stats/game-api-service/node_modules/:/home/csgo_user/game-service/node_modules/
         command: npm run start:debug
     
     service-csgo-ui:
@@ -32,6 +63,11 @@ services:
             target: development
             args:
                 NODE_ENV: dev
+        # depends_on:
+        #     - service-redis
+        #     - service-postgres
+        #     - service-csgo-logstream
+        #     - service-csgo-api
         env_file:
             - .env/common.env
         ports:
@@ -41,15 +77,16 @@ services:
         volumes:
             - ./game-stats/game-web-service:/home/csgo_user/game-web
             - /home/csgo_user/game-web/node_modules/
+            # - ./game-stats/game-web-service/node_modules/:/home/csgo_user/game-web/node_modules/
         command: npm run start
         
-
+    # DATABASE SERVICE
     service-postgres:
         container_name: game-postgres
         image: postgres:14
         networks:
             game_network:
-                ipv4_address: 30.3.1.201
+                ipv4_address: 30.3.1.202
         env_file:
             - .env/common.env
         ports:
@@ -59,6 +96,28 @@ services:
             # - ./postgres/postgresql.conf:/var/lib/postgresql/data/postgresql.conf
             # - ./postgres/pglog:/var/lib/postgresql/data/pglog
             # - ./postgres/dump.sql:/home/dump.sql
+
+    service-redis:
+        image: redis
+        container_name: redis
+        hostname: redis
+        ports:
+            - 6379:6379
+        links:
+            - redis-commander
+        volumes:
+            - cache:/data
+
+    # third-party web application
+    redis-commander:
+        container_name: redis-commander
+        hostname: redis-commander
+        image: rediscommander/redis-commander:latest
+        restart: always
+        environment:
+            - REDIS_HOSTS=redis
+        ports:
+            - 8081:8081
 
     service-game-pgadmin:
         container_name: game-pgadmin

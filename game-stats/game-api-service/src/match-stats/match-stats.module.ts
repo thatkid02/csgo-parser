@@ -13,7 +13,11 @@ import { _MetaLogs } from "src/repos/meta-logs.entity";
     controllers: [MatchStatsController],
     providers: [
         MatchStatsWriteDal,
-        MatchStatsService
+        MatchStatsService,
+        {
+            provide: "csgoLogs",
+            useValue: "csgoLogs"
+        }
     ],
 })
 

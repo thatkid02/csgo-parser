@@ -3,6 +3,8 @@ import { ConfigModule } from "@nestjs/config";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import config from "./config/ormConfig";
 import { MatchStatsModule } from "./match-stats/match-stats.module";
+import { GameStatsModule } from "./game-stats/game-stats.module";
+import { MessagesModule } from './messages/messages.module';
 
 @Module({
     imports: [
@@ -10,7 +12,9 @@ import { MatchStatsModule } from "./match-stats/match-stats.module";
             isGlobal: true,
         }),
         TypeOrmModule.forRoot(config),
-        MatchStatsModule
+        GameStatsModule,
+        MatchStatsModule,
+        MessagesModule
     ],
     controllers: [],
     providers: [],
