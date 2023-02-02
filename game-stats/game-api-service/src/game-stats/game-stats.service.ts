@@ -3,15 +3,18 @@ import { Injectable, Inject} from "@nestjs/common";
 import Redis from "ioredis";
 
 /** Service module imports **/
-import { Admins, AllPatterns, Game, MatchRounds, Player, Players, REDIS_CLIENT, RoundInfo } from "../common/common.types";
+import { Admins, AllPatterns, Game, MatchRounds, Player, PlayerKillScore, Players, REDIS_CLIENT, RoundInfo } from "../common/common.types";
 
 @Injectable()
 export class GameStatsService {
 
+    private players: Player[];
+    
     constructor(@Inject(REDIS_CLIENT) private readonly redisClient: Redis) { }
 
     async onModuleInit() {
-        // this.setPlayerKillLogs();
+        this.players = await this.getAllPlayers();
+        this.setPlayerKillLogs();
     }
 
     /**
@@ -28,10 +31,15 @@ export class GameStatsService {
         }else{
             players = await this.getPlayers()
         }
-        
+        this.players = players;
         return players;
     }
 
+    /**
+     * Method to fetch players from the pattern stored in Redis
+     * 
+     * @returns {Promise<Player[]>}
+     */
     async getPlayers(): Promise<Player[]> {
         const players = [{ name: "admin", pId: 0, steamId: "0", side: null, kills: 0, wiki: "", game: { victims: [], weapons: [], tSideScore:0, ctSideScore:0, diffusedBombCount:0}, }];
         const playerLogs = await this.redisClient.lrange(AllPatterns.PlayerEnteredPattern, 0, -1);
@@ -93,6 +101,41 @@ export class GameStatsService {
             });
             await this.redisClient.set(Players, JSON.stringify(players));
         });
+    }
+
+    async setPlayerKillLogs() {
+        let playerKillScore = []
+        const playerKillLogs = await this.redisClient.lrange(AllPatterns.PlayerKillPattern, 0, -1);
+
+        this.players.forEach(player => {
+            playerKillLogs.forEach(async log => {
+                const matchLog = JSON.parse(log);
+                const parsedLog = matchLog.type;
+                if (player.name == parsedLog[1]) {
+                    playerKillScore = this.setPlayerStats(playerKillScore, parsedLog)
+                    if (playerKillScore.length == 0) {
+                        playerKillScore.push({
+                            attacker: parsedLog[1],
+                            victim: [parsedLog[9]],
+                            ctSideScore: parsedLog[4] == "CT" ? 1 : 0,
+                            tSideScore: parsedLog[4] == "CT" ? 0 : 1,
+                            weapon: [parsedLog[19]]
+                        } as PlayerKillScore)
+                    }
+                }
+            });
+        });
+    }
+
+    setPlayerStats(playerKillScore, parsedLog) {
+        playerKillScore.push({
+            attacker: parsedLog[1],
+            victim: parsedLog[9],
+            ctSideScore: parsedLog[4] == "CT" ? 1 : 0,
+            tSideScore: parsedLog[4] == "CT" ? 0 : 1,
+            weapon: parsedLog[16]
+        } as PlayerKillScore)
+        return playerKillScore
     }
 }
 

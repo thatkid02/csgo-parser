@@ -20,25 +20,36 @@ import { Observable } from 'rxjs';
 export class PlayerStatsComponent {
   players: any = null;
   http;
+  message:string;
+  carouselPlayers: any
 
   constructor(http: HttpClient, private readonly messageService: MessageService) {
     this.http = http;
     this.sortedData = this.players;
+    this.carouselPlayers = [0,1,2,3,4].map(x=>'https://picsum.photos/200/200?random='+x)
   }
 
   async getAllPlayers() {
-    await this.http.get('http://localhost:3012/players').subscribe((response: any) => {
+    await this.http.get('http://localhost:3012/playerss').subscribe((response: any) => {
       this.players = response;
     })
 
   }
   
   async ngAfterViewInit() {
-    (await this.messageService.getMessage()).subscribe((response: any) => {
-      this.players = response;
-    });
+    // (await this.messageService.getMessage()).subscribe((response: any) => {
+    //   this.players = response;
+    // });
+    this.getAllPlayers();
+    // length = this.players;
+    
+    // Array.from({length}, (_, i) => i).map(x=>this.players[x])
+    // console.table(this.carouselPlayers)
     
   }
+  
+ 
+ 
   
   columnsToDisplayPlayer = ['name', 'pId', 'team', 'kills'];
 

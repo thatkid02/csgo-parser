@@ -42,3 +42,10 @@
   <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="detail-row"></tr>
 </table>
 
+
+<app-player
+   #carousel
+  [radius]="100"
+  [images]="carouselPlayers"
+  (select)="message = 'you click on image ' + $event"
+></app-player>

@@ -1,0 +1,6 @@
+<div class="carousel" [style.width.px]="cellWidth" [style.margin-top.px]="marginTop">
+    <div #element *ngFor="let i of array; let index = index" (click)="indexToFront(index)">
+        <img (load)="index == 0 && getDimensions(element)" [src]="images[index]" />
+
+    </div>
+</div>

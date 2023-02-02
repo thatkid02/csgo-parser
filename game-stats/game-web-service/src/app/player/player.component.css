@@ -1,0 +1,27 @@
+.carousel{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+  
+  }
+  .carousel::after{
+    content:' ';
+    display: block;
+    clear: both;
+  }
+  
+  .carousel>div{
+    float:left;
+    margin-right:-100%;
+    cursor:pointer;
+    transform-origin: top left;
+  }
+  
+  .carousel>div img {
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.35)
+  }
+  .carousel>div {
+    border-radius: 1rem;
+  }
+  
